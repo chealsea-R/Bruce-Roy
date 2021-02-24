@@ -18,7 +18,7 @@ include_once __DIR__.'/../vendor/autoload.php';
 // 实例化Api类
 $api = new \qqMusic\Api();
 // 调用
-$ret = $api->searchSinger('容祖儿');
+$ret = $api->searchSinger('梁博');
 ```
 
 ## Function
@@ -31,7 +31,7 @@ $ret = $api->searchSinger('容祖儿');
  * @param string $name
  * @return array
  */
-$api->searchSinger('容祖儿');
+$api->searchSinger('梁博');
 ```
 
 ### Get the singer's songs
@@ -147,7 +147,7 @@ $api->getSongsRankInfo([280494291,280494264]);
  * @param array $rankIds 排行榜ID，为空就用配置中默认的
  * @return array
  */
-$api->getSingersRankInfo('容祖儿');
+$api->getSingersRankInfo('梁博');
 ```
 
 ### Top gift rank
